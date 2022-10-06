@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Comptitable" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio-Aj</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f5d92ed471.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>Hi, i am </h1>
+            <h1><span>Ajay </span>Karthik<br> </h1>
+            <h3> I like to craft and design products with beautiful <br>user experiences. </h3>
+        </div>
+    </div>
+</div>
+<!-------------about------------>
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/profile.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, there! I am an aspiring software engineer who is familiar with software engineering processes such as coding, testing, code reviews, code comments, debugging, and so on. I am also acquainted with The ability to quickly learn new software and technologies. Capability to work in groups and provide meaningful help with  Strong communication skills and the ability to articulate thoughts needed.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('education')">Educations</p>
+                    <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills"><h2>
+                    <ul>
+                        <li><span>WEB THINGS
+                        </span><br>HTML CSS JS 
+                    </li>
+                        <li><span>UI/UX</span><br>Figma</li>
+                        <li><span>PROGRAMMING LANGUAGES
+                        </span><br>C , C++ , java , Python  </li>
+                    </ul></h2>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul><h2>
+                        <li><span>Sri Ramakrishna Institute of Technology</span><br>BTech IT (2020-2024)</li>
+                        <li><span>St. John's Matriculation Higher Secondary School
+                        </span><br>2014-2020</li>
+                        <li><span>Holy Cross Matriculation Higher Secondary School</span><br>Primary school</li>
+                        <li><span>Assisi Matriculation Higher Secondary School</span><br>Primary school</li>
+
+                    </ul></h2>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul><h2>
+                        <li><span>UI/UX</span><br>I design detail-oriented UI/UX. I help my clients in developing business solutions and improve their products using design language.</li>
+                        <li><span>BLOGGER @Welcome Shades</span><br>Blogs for blinds and other interiors were written, revised, and published.</li>
+                        <li><span>Let's make some experience</span><br>:)</li>
+                    </ul></h2>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+ </div>  
+ <!------------services----------->
+ 
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-sharp fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>
+                    One of my skills is developing a core idea from scratch into a full-fledged platform. I go over and above to create sites with a distinct, remarkable, and contemporary appearance and feel. With my broad knowledge of web mechanics, I can optimize complicated integrations such that they require little-to-no maintenance and can function on their own for years.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI UX Design</h2>
+                <p>
+                    My objective is to understand your business requirements, as well as the demands of your users, and to transform them into great User Experience and attractive, clean design. The fundamental characteristics of the job are diligence and timeliness, cooperation, and the effective completion of objectives. 
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Application Development</h2>
+                <p>
+                   Loading..... 
+                </p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------portfolio---------->
+ 
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media APP</h3>
+                    <p>Coming Soon...</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>E-commerce Website</h3>
+                    <p>Coming soon...</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Other Noteworthy Projects
+                    </h3>
+                    <p>Coming Soon...</p>
+                    <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-----------contact------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Get In Touch</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ajaykarthik.eng@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 96003 09140</p>
+
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ajay-karthik-6a0519250/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/aj_smile__/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://github.com/iamajay01"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://twitter.com/AjSmile18?t=NnAyVm0c8K0szgvX0kodOg&s=08"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        } 
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        } 
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+ </script>
+
+ <script>
+    
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+ </script>
+    
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzI2tMPBLSDNphDPru5cZK4j_FNVx2YlkSNwbO1OKcCUwcfMbqX1VBZRoEfxDvl_wLJBw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully :) "
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
